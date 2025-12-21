@@ -64,7 +64,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      const res = await fetch("http://localhost:5000/api/audit", {
+      const res = await fetch("https://amazon-listing-audit.onrender.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

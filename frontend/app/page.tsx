@@ -64,7 +64,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      const res = await fetch("https://amazon-listing-audit.onrender.com/", {
+      const res = await fetch("https://amazon-listing-audit.onrender.com/api/audit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,7 +75,7 @@ export default function Home() {
       const data = await res.json();
       setResult(data);
     } catch (err) {
-      setError("Backend not a responding. Please try again.");
+      setError("Backend not responding. Please try again.");
     } finally {
       setLoading(false);
     }

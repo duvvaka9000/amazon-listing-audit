@@ -75,7 +75,7 @@ export default function Home() {
       const data = await res.json();
       setResult(data);
     } catch (err) {
-      setError("Backend not responding. Please try again.");
+      setError("Backend not a responding. Please try again.");
     } finally {
       setLoading(false);
     }

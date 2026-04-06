@@ -24,7 +24,7 @@ export default function FAQ() {
   
             <FAQItem
               question="Can this be used commercially?"
-              answer="No. This version is developed for educational Purpose."
+              answer="Yes"
             />
           </div>
         </div>

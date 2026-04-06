@@ -7,7 +7,7 @@ export default function About() {
           </h1>
   
           <p className="text-gray-700 leading-relaxed mb-4">
-            Amazon Listing Audit Tool is an educational SaaS project designed to
+            Amazon Listing Audit Tool is an SaaS project designed to
             analyze and evaluate Amazon product listings based on content quality,
             SEO structure, and media optimization.
           </p>

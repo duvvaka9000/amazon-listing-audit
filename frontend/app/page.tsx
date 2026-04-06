@@ -155,7 +155,7 @@ export default function Home() {
             )}
 
             <p className="text-xs text-white/40 mt-4">
-              No login required • Educational project
+              No login required
             </p>
           </div>
 
